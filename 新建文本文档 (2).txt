@@ -1,0 +1,23 @@
+import random
+
+number=random.randint(1,100)
+
+print(number)
+s = number % 10 + number // 10
+
+for i in range(5):
+    input_=eval(input(''))
+    
+if input_>s:
+        
+print('大了，小点儿')
+    
+if input_<s:
+        
+print('小了，大点儿')
+    
+if input_==s:
+        
+print('不错，对了')
+        
+break   
